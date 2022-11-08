@@ -11,12 +11,12 @@ click [here](#tutorial).
 
 I had two basic requirements for this blog:
 1. It had to be headless
-2. Be as low cost as possible
+2. Be as low-cost as possible
 
 Wait, what's up with this headless stuff?
 
 Well, a **headless** blog would be able to operate
-without a front-end, meaning, I want to be able to interact
+without a front end, meaning, I want to be able to interact
 with it (publish posts, delete posts, etc.) without having to
 interact with a UI. 
 
@@ -29,26 +29,26 @@ posts. And these posts can be rendered from *any site*.
 In my case, I needed the blog to be headless because my 
 portfolio website is hosted on GitHub, which only allows
 statically hosted sites (no back-end or database). 
-If I wanted a backend, I would have to host that seperately on another server.
+If I wanted a backend, I would have to host that separately on another server.
 
 ## Candidate solutions
 
-Initially, I considered using Wordpress as the framework for 
-my headless blog. Wordpress has a strong community behind it
+Initially, I considered using WordPress as the framework for 
+my headless blog. WordPress has a strong community behind it
 and tons of documentation, so it wouldn't be too hard to spin
 up a blog quickly and get to posting. Plus it's open-source. ^_^
 
-That being said, Wordpress is kind of overkill for my purposes
-as it's main purpose is to serve styled content to websites in
+That being said, WordPress is kind of overkill for my purposes
+as its main purpose is to serve styled content to websites in
 order to provide a full build.
 
 So, I looked elsewhere and came across [Strapi](https://strapi.io/). With Strapi, I had much more flexibility and
 they had a configuration readily available to support
 blogging. To get started, all I would have to do is build it 
 with the blogging template and I would have access to a clean
-UI that stores blogs posts on a database of my choosing.
+UI that stores blog posts on a database of my choosing.
 
-Like Wordpress, Strapi has to be hosted, so I 
+Like WordPress, Strapi has to be hosted, so I 
 would have to find a platform to host my web app. Although there are numerous cloud hosting platforms that offer 
 inexpensive web application hosting (AWS offers hosting on
 lambda as little as $5 a month), these platforms usually
@@ -66,15 +66,15 @@ free web app hosting anymore :(.
 So, I tried looking for headless cloud content management services (CMS) that offered free hosting and stumbled upon
 [Cosmic.js](https://www.cosmicjs.com/). They offered a free 
 tier subscription. I started using it and was very pleased.
-They had an easy to use UI and making objects for content was
-pretty straight forward. However, a free subscription
+They had an easy-to-use UI and making objects for content was
+pretty straightforward. However, a free subscription
 was limited to only 1GB of storage. I liked it so much that
 I planned on using it for displaying projects and testimonials
 but continued my search for blog hosting.
 
 I finally came across the concept of using Google Sheets as a
 database and using the Google Cloud API to interact with it.
-At first, this seemed ridiculous. Using a spread sheet as a 
+At first, this seemed ridiculous. Using a spreadsheet as a 
 database seemed tacky and stupid. But it would actually be
 perfect for my needs. I'm not going to store huge amounts
 of data and with a fresh Google Account I'd have access to
@@ -83,8 +83,7 @@ than I'll ever need! With the added bonus of this being hosted
 **for free** for me on the cloud, what more could I ask for?!
 
 And that's how I came to the decision of hosting my blog 100%
-**for free** with Google Sheets. Now, let's get into the nitty
-gritty details of how I actually did it.
+**for free** with Google Sheets. Now, let's get into the nitty-gritty details of how I actually did it.
 
 ## How to host a blog with Google Sheets{#tutorial}
 
@@ -114,7 +113,7 @@ permissions to the service account in the Sheet.
 To make this usable, I made a [web UI](https://github.com/sam-hilliard/sheets-blog-ui)
 that makes it easy to create, edit, and delete posts. Once I
 create posts, all I have to do is render them by requesting
-the Google Sheet in csv format with [Papa Parse](https://www.papaparse.com/).
+the Google Sheet in CSV format with [Papa Parse](https://www.papaparse.com/).
 
 And that's how I hosted my blog **for free** using Google Sheets! Thanks for making it this far and stay tuned
 for more tutorials and posts! :)
