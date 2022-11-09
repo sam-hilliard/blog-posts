@@ -1,7 +1,5 @@
 Hello again! This is going to be my first legitimate post on this page so hope you're as excited as I am! Today's post is going to be about how I built this blog from scratch and 100% **for free**. And this is something anyone can do. So, let's get into it!
 
-If you want to skip this section and go straight to the tutorial, click [here](/#/blog/building-my-blog/#tutorial).
-
 Deciding on a solution
 ----------------------
 
@@ -37,7 +35,8 @@ I finally came across the concept of using Google Sheets as a database and using
 
 And that's how I came to the decision of hosting my blog 100% **for free** with Google Sheets. Now, let's get into the nitty-gritty details of how I actually did it.
 
-<h2 id="tutorial">How to host a blog with Google Sheets</h2>
+How to host a blog with Google Sheets
+-------------------------------------
 
 To make a blog with Sheets, you'll need a Google Account (obviously), a new Sheets doc (to store your blog entries), and Google Sheets enabled on the Google Cloud API.
 
