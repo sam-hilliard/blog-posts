@@ -1,6 +1,6 @@
 Hello again! This is going to be my first legitimate post on this page so hope you're as excited as I am! Today's post is going to be about how I built this blog from scratch and 100% **for free**. And this is something anyone can do. So, let's get into it!
 
-If you want to skip this section and go straight to the tutorial, click <HashLink to="#tutorial">here</HashLink>.
+If you want to skip this section and go straight to the tutorial, click [here](/#/blog/building-my-blog).
 
 Deciding on a solution
 ----------------------
