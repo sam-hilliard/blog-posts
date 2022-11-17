@@ -40,7 +40,7 @@ information about both dogs and cats I could search for:
 
 ```
 dogs AND cats
-````
+```
 
 And these queries can be chained together and mixed intermittently
 offering flexibility and power.
