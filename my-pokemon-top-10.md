@@ -98,7 +98,7 @@ form is super cute too. So, yeah.
 
 ## 2. Alolan Dugtrio
 
-![Alolan Dugtrio](https://static.wikia.nocookie.net/pokemon-magma/images/5/54/812.png/revision/latest?cb=20200506103456)
+![Alolan Dugtrio](https://img.pokemondb.net/sprites/sword-shield/normal/dugtrio-alolan.png)
 
 Alolan Dugtrio is absolutely FIERCE. Just not in the way some other Mons are.
 I used to be a little bit of a Diglett hater, but I love the fact that its
