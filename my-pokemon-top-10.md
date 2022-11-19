@@ -55,5 +55,69 @@ an electrike in real life so bad haha.
 
 ## 6. Galarian Farfetch'd
 
-![farfetch'd](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png)
+![farfetch'd](https://img.pokemondb.net/sprites/sword-shield/normal/farfetchd-galarian.png)
 
+Take a normal duck but with an onion slung over it's shoulders 
+and a menacing look that could kill and you have Galarian Farfetch'd!
+The fact that it's armed with a vegetable kills me. I love it so much XD!
+And it's evolution into Sirfetch'd really puts the icing on the cake
+with this one.
+
+## 5. Spoink
+
+![spoink](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/325.png)
+
+Ok how could you not love Spoink. It's level of cuteness is overloaded
+and all it does is bounce around. I have the shiny version of this in
+PoGo and it's one of my all time favorites. The only reason Spoink didn't
+make it higher on the list is because it's abomination of an evolution,
+Grumpig, SUCKS. It's absolutely TERRIBLE. Wow I hate it so much.
+Whoever designed that hot piece of garbage should be ashamed of themselves.
+
+## 4. Growlithe
+
+![growlithe](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png)
+
+Anyways...moving onto number 4, Growlithe! This is where my dog
+bias comes into play a little, but I mean come on, how cool
+is a fire dog?! If I could only pick one Pokemon to keep in
+real life, Growlithe would definitely be a strong contender.
+The fact that it has a really sick evolution that's probably
+big enough for me to ride like a horse definitely adds extra
+points.
+
+## 3. Eevee
+
+![eevee](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png)
+
+Ok my reasonings for this might be pretty self explanatory. The Eeveelution
+mechanic of this Pokemon is one of the best concepts in all of Pokemon.
+I love all of the Eeveelutions (except maybe Leafeon but I'll get past that),
+with Umbreon being my favorite. They're all so well done and the original
+form is super cute too. So, yeah.
+
+## 2. Alolan Dugtrio
+
+![Alolan Dugtrio](https://static.wikia.nocookie.net/pokemon-magma/images/5/54/812.png/revision/latest?cb=20200506103456)
+
+Alolan Dugtrio is absolutely FIERCE. Just not in the way some other Mons are.
+I used to be a little bit of a Diglett hater, but I love the fact that it's
+evolution, Dugtrio, is just a group of it's homies chillin in a hole together.
+Then add lucious golden locks to that combo and you have one of the most
+glorious Pokemon in existence.
+
+## 1. Wooper
+
+![wooper](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/194.png)
+
+This one might be a little controversial. I mean, why would I pick a Mudkip
+knock-off as my favorite Pokemon? I'll tell you why. It has a big 'ol smile
+and bops it's lil head without a care in the world in PoGo. This derpy
+lil guy really just has my whole heart. Even it's evolution, Quagsire,
+is just as cute. Top that off with banging names like "Wooper" and 
+"Quagsire" and you have the absolute best Pokemon in the Pokemon
+universe.
+
+And that's it for my (personal) top 10 favorite Pokemon! Thanks for reading
+and I'll be sure to add more Pokemon related posts in the future.
+So, stay tuned!
