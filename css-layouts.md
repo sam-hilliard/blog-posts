@@ -142,3 +142,117 @@ And that's all you need to get started with flex-box. Now,
 let's move on to grid layouts!
 
 ## Grid Layouts
+
+Much like with flex-blox layouts, you start out creating
+a **grid-container** by setting `display: grid/inline-grid`. 
+From there, you can structure your grid by defining the size 
+and number of its rows and columns. To do this, you would use
+`grid-template-rows` and `grid-template-columns`.
+
+```
+.grid {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+```
+
+This creates a 4x3 grid with even evenly divided cell areas
+depending on the size of the grid. The **fr** unit is
+introduced in grid layouts to denote a fraction of available
+space. `1fr` is commonly used to define cell widths/height as
+this will result in evenly distributed cell areas that are
+responsive to the size of the grid-container. You can also
+uses static values in `px` for example as well, but `1fr`
+works for most applications. The `repeat()` function is also
+used to make the values more concise.
+
+To make your code more semantic, you can use the
+`grid-template-areas` in conjunction with your
+`grid-template-rows/columns` specifications.
+
+```
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header header header header"
+        "about about . pfp"
+        "footer footer footer footer"
+}
+
+header {
+    grid-area: header;
+}
+
+.about-section {
+    grid-area: about;
+}
+
+.profile-pic {
+    grid-area: pfp;
+}
+
+footer {
+    grid-area: footer;
+}
+```
+
+This creates a 5 column grid with rows depending on the size
+of the content in them. The header and footer sections would
+span all of the columns, while the about section would span
+two columns and the profile pic would span 1. The `.`
+specifies that nothing will fill the column between the
+about section and the profile pic. It is essentially empty
+space.
+
+The `grid` property is a short-hand for
+`grid-template-rows/columns`, `grid-template-areas` and
+`grid-auto-rows/columns/flow`. I won't cover grid-auto
+layouts in this post, but the short-hand is super handy
+and its basic syntax is as follows:
+
+```
+.grid-container {
+    display: grid;
+    grid: <grid-template-rows> / <grid-template-columns>
+}
+```
+
+You can mix in the other attributes mentioned above,
+but I prefer to seperate my `grid-template-rows/columns`
+from my `grid-template-areas` because it's more readable
+for me. Of course, you can define where content is
+positioned on the grid using `grid-row/column-start/end`
+properties on the grid-items, but I think that
+grid-template-area is better for readability and
+requires less code when creating responsive layouts.
+Feel free to go over the docs about these properties
+as they are still worth learning.
+
+The grid layout also has similar alignment properties
+as flexbox. `justify/align-items` can be used to align
+items along the main/cross-axis of grid cells, while
+`justify/align-content` aligns the entire grid container.
+I'm not going to go over the specific properties as they
+are so similar to flex-box's alignment that I would feel
+as though I'm repeating myself on that topic.
+
+## When to use Flex-box vs Grid
+
+This is a widely debated and controversal topic in the
+realm of web development, but for me I belive the answer
+is fairly simple: **use flex-box for simple alignment and grid for the overall layout**. Although they are
+both tools for layout, I personally just use flex
+box if I need to tidy things up after creating the
+main layout. Grid, in my opinion, is just far-superior
+in getting content where I want it. In the past, I
+used to use flex-box for nearly everything which
+caused me so much head ache and overhead. So, I advise
+you to use **grid** for the **big picture** and 
+**flex-box** for **fine-tuning**.
+
+And there you have it! Two of the most powerful layout
+tools are now at your disposal! I wish these were
+available when I first started.
