@@ -94,4 +94,55 @@ It is also more accessible to use rems over a static unit
 in their browser's settings. This would make font sizes
 with rems scale to accomidate this preference.
 
-## Layout
+## Layout and Scaling
+
+You can also use both ems and rems for both layout
+and scaling (so things like padding, height/width, margin,
+etc. are fair game).
+
+Unlike with fonts, ems are a little more predictable as 
+they are relative to the element's `font-size`.
+
+For example, I can scale a button fairly easily with ems:
+
+```
+.button {
+    font-size: 2rem;
+
+    height: 1em;
+    width: 2em;
+    padding: 1em 2em;
+}
+
+.button-lg {
+    font-size: 2.5rem;
+}
+
+.button-sm {
+    font-size: 1.5rem;
+}
+```
+
+As you can see, items can easily and consistently be scaled
+just by changing the `font-size`! For those of you with keen
+eyes, I used rems for the `font-size` which would make the
+button's `font-size` (and its depending dimmensions) more
+consistent but still accessible!
+
+Of course, rems can be used for more rigid sizing as needed.
+
+## In short...
+
+Use rems for font size and whenever you want consistent
+dimmensions without sacrificing accessiblity.
+
+Use ems for consistently scaling dimensions.
+
+Hopefully after reading this you will now be able to 
+confidently harness the power of ems and rems! This
+article would have not been possible without the help
+of my good friend Kevin Powell. Watching his videos
+helped me learn all of this and more. So, if you're
+interested in front-end development, 
+[his YouTube channel](https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw) 
+will help you fall maddly in love with CSS!
