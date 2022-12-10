@@ -12,7 +12,7 @@ power of ems and rems!
 
 ## Sizing fonts with ems and rems
 
-When specifying font-sizes with ems, you are specifying value
+When specifying font sizes with ems, you are specifying a value
 that is a scale factor of the element's parent. For example,
 
 ```
@@ -21,12 +21,12 @@ p {
 }
 ```
 
-makes paragraphs have a `font-size` twice larger than their
-parent (in this case just html). Since the default `font-size`
+makes paragraphs have a font size that is twice larger than their
+parent (in this case just `<html>`). Since the default font size
 of `<html>` is `16px`, this results in `<p>` elements having
-a `font-size` of `32px`.
+a font size of `32px`.
 
-Specifying font-sizes with ems can get complicated when you
+Specifying font sizes with ems can get complicated when you
 have nested elements. Let's take a look at this example:
 
 ```
@@ -61,8 +61,8 @@ tricky. The first `<div>` has a `font-size` of 1.5 times
 greater than the `<html>`'s `font-size`. Ok, that's not so
 bad.
 
-The nested `<div>` has a `font-size` that is two times bigger
-than it's parent. So, it's `font-size` could be
+The nested `<div>` has a font size that is two times bigger
+than its parent. So, its font size could be
 `16px x 1.5 x 2` which works out to be `48px` (assuming the
 default of `16px` is used for `<html>`).
 
@@ -78,7 +78,7 @@ against using ems for sizing fonts.
 
 Using rems turns out to be much more useful, as they get rid
 of this compounding problem by scaling fonts to the **root**
-(html) `font-size` rather than the parent.
+`font-size` rather than the parent.
 
 So, in the previous example, all of the elements would be
 scaled to the value of `16px`, which is *much* more
@@ -86,22 +86,22 @@ predictable.
 
 rems are also extremely useful for responsive font scaling.
 If a desktop design required larger fonts than the mobile,
-you can scale all of your rem-sized font's with just one
+you can scale all of your rem-sized fonts with just one
 media query that makes the root font size bigger.
 
 It is also more accessible to use rems over a static unit
-(like px), because users might specify larger font sizes
+(like px) because users might specify different font sizes
 in their browser's settings. This would make font sizes
-with rems scale to accomidate this preference.
+with rems scale to accommodate this preference.
 
 ## Layout and Scaling
 
-You can also use both ems and rems for both layout
+You can also use both ems and rems for both layouts
 and scaling (so things like padding, height/width, margin,
 etc. are fair game).
 
 Unlike with fonts, ems are a little more predictable as 
-they are relative to the element's `font-size`.
+they are relative to the element's font size.
 
 For example, I can scale a button fairly easily with ems:
 
@@ -125,8 +125,8 @@ For example, I can scale a button fairly easily with ems:
 
 As you can see, items can easily and consistently be scaled
 just by changing the `font-size`! For those of you with keen
-eyes, I used rems for the `font-size` which would make the
-button's `font-size` (and its depending dimmensions) more
+eyes, I used rems for the font size which would make the
+button's font size (and its depending dimensions) more
 consistent but still accessible!
 
 Of course, rems can be used for more rigid sizing as needed.
@@ -134,15 +134,15 @@ Of course, rems can be used for more rigid sizing as needed.
 ## In short...
 
 Use rems for font size and whenever you want consistent
-dimmensions without sacrificing accessiblity.
+dimensions without sacrificing accessibility.
 
 Use ems for consistently scaling dimensions.
 
-Hopefully after reading this you will now be able to 
+Hopefully, after reading this you will now be able to 
 confidently harness the power of ems and rems! This
 article would have not been possible without the help
 of my good friend Kevin Powell. Watching his videos
 helped me learn all of this and more. So, if you're
 interested in front-end development, 
 [his YouTube channel](https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw) 
-will help you fall maddly in love with CSS!
+will help you fall madly in love with CSS!
