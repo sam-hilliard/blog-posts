@@ -19,12 +19,12 @@ responsive designs cleaner and more flexible.
 
 Number one on the list is the `min()` function. This function
 accepts two (or more) parameters and returns the value of the
-parameter that is the smallest (pretty self explanatory,
+parameter that is the smallest (pretty self-explanatory,
 right?).
 
-While simple in design, it's uses can be pretty powerful.
+While simple in design, its uses can be pretty powerful.
 
-For example, it can turn this two liner:
+For example, it can turn this two-liner:
 
 ```
 div {
@@ -41,9 +41,9 @@ div {
 }
 ```
 
-Even though this is a simple (and common) use-case, `min()` is
-not only limited to widths and heights, but paddings, margins,
-and font-sizes as well!
+Even though this is a simple (and common) use case, `min()` is
+not only limited to widths and heights but paddings, margins,
+and font sizes as well!
 
 You can also pass in calculations without having to call the
 `calc()` function like this:
@@ -57,7 +57,7 @@ div {
 ## `max()`
 
 `min()`'s opposite, `max()` functions in exactly the same way,
-except it returns the maximum value of it's passed parameters.
+except it returns the maximum value of its passed parameters.
 
 Whereas the `min()` function is useful for limiting the growth
 of an element, the `max()` function can be used to limit the
@@ -69,8 +69,8 @@ div {
 }
 ```
 
-In the preceding example, a div is created whos padding will
-grow depending on the viewport height, but will not shrink
+In the preceding example, a div is created whose padding will
+grow depending on the viewport height but will not shrink
 past `1rem`. This is great if you want to avoid responsive
 units from squishing your elements too much.
 
@@ -86,7 +86,7 @@ The syntax is as follows:
 clamp(<minimum>, <base>, <maximum>)
 ```
 
-Where `clamp()` is most useful is for creating responsive font
+Where `clamp()` is most useful for creating responsive font
 scales.
 
 Take this example:
@@ -105,5 +105,5 @@ on your own, so here's a super [handy generator](https://utopia.fyi/type/calcula
 to make things way easier.
 
 And that's a wrap on these simple but powerful functions.
-I highly encourage them to use them whenever you can to
+I highly encourage you to use them whenever you can to
 make your code better and more responsive.
